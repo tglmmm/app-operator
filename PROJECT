@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: app
 repo: github.com/tglmmm/app-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: tglmm.com
+  group: apps
+  kind: Application
+  path: github.com/tglmmm/app-operator/api/v1
+  version: v1
 version: "3"
