@@ -1,0 +1,6 @@
+domain: tglmm.com
+layout:
+- go.kubebuilder.io/v3
+projectName: app
+repo: github.com/tglmmm/app-operator
+version: "3"
